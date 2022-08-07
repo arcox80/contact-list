@@ -1,18 +1,20 @@
-import hughie from "./images/hughie.jpg";
-import butcher from "./images/butcher.jpg";
-import mm from "./images//mm.jpg";
-import frenchie from "./images/frenchie.jpg";
-import kimiko from "./images/kimiko.jpg";
-import "./App.css";
+import hughie from './images/hughie.jpg';
+import butcher from './images/butcher.jpg';
+import mm from './images/mm.jpg';
+import frenchie from './images/frenchie.jpg';
+import kimiko from './images/kimiko.jpg';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
       <h1>Contact List</h1>
-      <hr></hr>
-      <button type="button" className="btn btn-primary add-contact">Add Contact</button>
-      <br></br>
-      <table class="table table-hover table-dark">
+      <hr />
+      <button type="button" className="btn btn-primary add-contact">
+        Add Contact
+      </button>
+      <br />
+      <table className="table table-hover table-dark">
         <thead>
           <tr>
             <th scope="col">Profile Pic</th>
